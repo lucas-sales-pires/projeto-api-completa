@@ -5,8 +5,8 @@
   "main": "app.js",
   "scripts": {
     "start:dev": "nodemon --exec npx ts-node src/index.ts",
-    "start": "node dist/index.js",
-    "build": "npx tsc --build tsconfig.json"
+    "build": "npx tsc --build tsconfig.json && node dist/index.js", 
+    "start": "npm run build -- --omit=dev" 
   },
   "keywords": [],
   "author": "",
