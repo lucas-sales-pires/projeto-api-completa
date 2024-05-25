@@ -5,18 +5,14 @@
   "main": "app.js",
   "scripts": {
     "start:dev": "nodemon --exec npx ts-node src/index.ts",
-    "start": "node build/index.js",
-    "build": "webpack --mode production",
-    "dev": "webpack-dev-server --inline --hot",
-    "test": "karma start"
+    "start": "node dist/index.js",
+    "build": "npx tsc --build tsconfig.json"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/bson": "^4.2.0",
     "@types/express": "^4.17.14",
-    "@types/jasmine": "^5.1.4",
     "@types/node": "^18.11.13",
     "@types/validator": "^13.7.10",
     "@typescript-eslint/eslint-plugin": "^5.46.0",
@@ -24,20 +20,12 @@
     "dotenv": "^16.0.3",
     "eslint": "^8.29.0",
     "eslint-config-prettier": "^8.5.0",
-    "jasmine-core": "^5.1.2",
-    "karma": "^6.4.3",
-    "karma-chrome-launcher": "^3.2.0",
-    "karma-jasmine": "^5.1.0",
-    "karma-webpack": "^5.0.1",
     "nodemon": "^2.0.20",
+    "ntypescript": "^1.201706190042.1",
     "prettier": "^2.8.1",
-    "ts-loader": "^9.5.1",
-    "ts-node": "^10.9.1",
-    "tsc": "^2.0.4",
-    "typescript": "^4.9.5",
-    "webpack": "^5.91.0",
-    "webpack-cli": "^5.1.4",
-    "webpack-dev-server": "^5.0.4"
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.9.5"
   },
   "dependencies": {
     "express": "^4.18.2",

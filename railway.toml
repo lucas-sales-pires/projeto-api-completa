@@ -1,2 +1,0 @@
-buildCommand = "npm run build"
-startCommand = "node build/index.js"
