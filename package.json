@@ -6,7 +6,7 @@
   "scripts": {
     "start:dev": "nodemon --exec npx ts-node src/index.ts",
     "start": "node build/index.js",
-    "build": "webpack -p",
+    "build": "webpack --mode production",
     "dev": "webpack-dev-server --inline --hot",
     "test": "karma start"
   },
