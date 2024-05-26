@@ -21,7 +21,6 @@
     "eslint": "^8.29.0",
     "eslint-config-prettier": "^8.5.0",
     "nodemon": "^2.0.20",
-    "ntypescript": "^1.201706190042.1",
     "prettier": "^2.8.1",
     "ts-node": "^10.9.2",
     "ts-node-dev": "^2.0.0",
