@@ -1,5 +1,5 @@
 {
-  "name": "projeto-fullstack-completo",
+  "name": "projeto-api-completo",
   "version": "1.0.0",
   "description": "Este é um projeto de API REST completa desenvolvida com Node.js, TypeScript e MongoDB, seguindo os princípios SOLID e utilizando o padrão de arquitetura MVC.",
   "main": "app.js",
