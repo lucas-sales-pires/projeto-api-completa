@@ -1,4 +1,4 @@
-# Projeto Fullstack - API REST
+# Projeto  - API REST
 
 Este é um projeto de API REST completa desenvolvida com Node.js, TypeScript e MongoDB, seguindo os princípios SOLID e utilizando o padrão de arquitetura MVC.
 
